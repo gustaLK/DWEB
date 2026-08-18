@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="" width=device-width, initial-scale="1.0">
+    <meta name="description" content="Portifólio do guga, desenvolvedor web.">
+    <meta name="keywords" content="Desenvolvedor, Web, HTML,
+    CSS, JavaScript,Portifólio">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <title>Pórtifolio bacanudo do guga haha</title>
+</head>
+
+<body>
+    <header class="header-1">
+        <nav>
+            <div>
+                <a href="#home" class="nav-logo">
+                    Gustavo Amaral
+                </a>
+            </div>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">
+                            Inicio</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link active">
+                            Sobre</a></li>
+                    <li class="nav-item"><a href="#formation" class="nav-link active">
+                            Formação</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link active">
+                            Habilidades</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link active">
+                            projetos</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link active">
+                            Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home bd-grid" id="home">
+            <div>
+                <h1 class="home-title">Olá, <br>
+                    Eu sou o
+                    <span class="home-title-color">
+                        Gustavo
+                        Amaral
+                    </span><br>
+                    Desenvolvedor Web
+                </h1>
+                <a href="contact" class="button">Contato</a>
+            </div>
+
+            <div class="home-img">
+                <br><br>
+                <img src="img/images (1).jpeg"
+                width="300" height="300"
+                alt="Foto de jaré" srcset="jaré">
+            </div>
+        </section>
+        <section class="about section" id="">
+
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
