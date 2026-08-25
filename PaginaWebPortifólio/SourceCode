@@ -168,9 +168,10 @@
                 </div>
                 <div class="projects-img">
                     <figure>
-                    <a href=""
+                    <a href="https://github.com/gustaLK"
                     target="blank">
-                    <img src="" alt="">
+                    <img src="https://avatars.githubusercontent.com/u/313925916?v=4"
+                    alt="" width="300" height="300">
                 </a>
                 <figcaption>Site Instituicional do Guga</figcaption>
                     </figure>
