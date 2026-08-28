@@ -9,7 +9,8 @@
     <meta name="description" content="Portifólio do guga, desenvolvedor web.">
     <meta name="keywords" content="Desenvolvedor, Web, HTML,
     CSS, JavaScript,Portifólio">
-    <link rel="stylesheet" href="./styles/style.css">
+    
+    <link rel="stylesheet" href=".styles/style.css">
 
     <title>Pórtifolio bacanudo do guga haha</title>
 </head>
@@ -58,7 +59,8 @@
 
             <div class="home-img">
                 <br><br>
-                <img src="img/images (1).jpeg" width="300" height="300" alt="Foto de jaré" srcset="jaré">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByk3IH0EiAjwioJ6obRd3lVJygZKP7EUT3mpXQCDzTg&s=10"
+                        width="300" height="300" alt="Foto de jaré" srcset="jaré">
             </div>
         </section>
 
@@ -119,7 +121,7 @@
                         <dt><em>Comunicação</em></dt>
                         <dd><em>Lider e Apresentações</em></dd>
                         <dt><em>Trabalho em equipe</em></dt>
-                        <dd>Equipes de marketing e vendas para 
+                        <dd>Equipes de marketing e vendas para
                             lançamento de novo produto</dd>
                     </dl>
                 </div>
@@ -158,32 +160,53 @@
             <div class="projects-container bd-grid">
                 <div class="projects-img">
                     <figure>
-                        <a href="https://github.com/gustaLK"
-                        target=" blank">
-                            <img src="https://avatars.githubusercontent.com/u/313925916?v=4" 
-                            alt="" width="300" height="300">
+                        <a href="https://github.com/gustaLK/DWEB" target=" blank">
+                            <img src="https://avatars.githubusercontent.com/u/313925916?v=4" alt="" width="300"
+                                height="300">
                         </a>
-                        <figcaption>Projeto Site Pessoal </figcaption>
+                        <figcaption>Projeto Site Pessoal</figcaption>
                     </figure>
                 </div>
                 <div class="projects-img">
                     <figure>
-                    <a href="https://github.com/gustaLK"
-                    target="blank">
-                    <img src="https://avatars.githubusercontent.com/u/313925916?v=4"
-                    alt="" width="300" height="300">
-                </a>
-                <figcaption>Site Instituicional do Guga</figcaption>
+                        <a href="https://github.com/gustaLK" target="blank">
+                            <img src="https://avatars.githubusercontent.com/u/313925916?v=4" alt="" width="300"
+                                height="300">
+                        </a>
+                        <figcaption>Site Instituicional do Guga</figcaption>
                     </figure>
                 </div>
             </div>
         </section>
 
+         <section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-container bd-grid">
+ 
+                <a href="https://www.instagram.com/gusta_lk/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" width="90"
+                    height="90" alt="logo do instagram"></a>
+ 
+                <a href="https://wa.me/5515991325501">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZRR41jUmacEK0f2jajsAemwyelOyZ-8dAZEI8tNIrQ&s=10" width="100"
+                     height="100"></a>
+ 
+                <a href="https://br.linkedin.com/in/levi-rodrigues-munhoz-587b12aa">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ZBsDfvQ2isYjlPw4O0rDUM4FLIylJaS3WQ04z3ya_g&s=10" width="100"
+                     height="100"></a>
+ 
+                <a href="https://github.com/gustaLK">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLyiYI6toDd8wc_g3Sk_iHP__XQAd-hrFslE2QIQOVQ&s=10" width="100"
+                     height="100"></a>
+            </div>
+        </section>
     </main>
-
+ 
     <footer>
-
+        <p id="footer-title">Criado na aula </p>
+        <p>&copy;Todos os direitos reservados. </p>
     </footer>
+
 </body>
 
 </html>
