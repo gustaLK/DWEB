@@ -10,7 +10,7 @@
     <meta name="keywords" content="Desenvolvedor, Web, HTML,
     CSS, JavaScript,Portifólio">
     
-    <link rel="stylesheet" href=".styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 
     <title>Pórtifolio bacanudo do guga haha</title>
 </head>
@@ -46,7 +46,7 @@
     <main>
         <section class="home bd-grid" id="home">
             <div>
-                <h1 class="home-title">Olá, <br>
+                <h1 class="home-title"><br><br>Olá, <br>
                     Eu sou o
                     <span class="home-title-color">
                         Gustavo
@@ -183,11 +183,11 @@
             <h2 class="section-title">Contato</h2>
             <div class="contact-container bd-grid">
  
-                <a href="https://www.instagram.com/gusta_lk/">
+                <a href="https://www.instagram.com/choquei/">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" width="90"
                     height="90" alt="logo do instagram"></a>
  
-                <a href="https://wa.me/5515991325501">
+                <a href="https://wa.me/5515233114567">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZRR41jUmacEK0f2jajsAemwyelOyZ-8dAZEI8tNIrQ&s=10" width="100"
                      height="100"></a>
  
