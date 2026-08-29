@@ -28,8 +28,6 @@
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#home" class="nav-link active">
                             Inicio</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link active">
-                            Sobre</a></li>
                     <li class="nav-item"><a href="#formation" class="nav-link active">
                             Formação</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link active">
@@ -46,7 +44,7 @@
     <main>
         <section class="home bd-grid" id="home">
             <div>
-                <h1 class="home-title"><br><br>Olá, <br>
+                <h1 class="home-title">Olá, <br>
                     Eu sou o
                     <span class="home-title-color">
                         Gustavo
@@ -59,8 +57,9 @@
 
             <div class="home-img">
                 <br><br>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSByk3IH0EiAjwioJ6obRd3lVJygZKP7EUT3mpXQCDzTg&s=10"
-                        width="300" height="300" alt="Foto de jaré" srcset="jaré">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQni3meCxBoZVJu_ozkqVXsq2yUKJbNuKFjoPWtsGoMSA&s=10"
+                        width="240" height="300" alt="Foto de jaré">
+                        <figcaption>Foto de Jaré</figcaption>
             </div>
         </section>
 
@@ -161,7 +160,7 @@
                 <div class="projects-img">
                     <figure>
                         <a href="https://github.com/gustaLK/DWEB" target=" blank">
-                            <img src="https://avatars.githubusercontent.com/u/313925916?v=4" alt="" width="300"
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLqqwMZP6-YLp0zqID8T8ot6MtXkJFqgSw5vd7K3oITA&s=10" alt="" width="300"
                                 height="300">
                         </a>
                         <figcaption>Projeto Site Pessoal</figcaption>
@@ -173,7 +172,7 @@
                             <img src="https://avatars.githubusercontent.com/u/313925916?v=4" alt="" width="300"
                                 height="300">
                         </a>
-                        <figcaption>Site Instituicional do Guga</figcaption>
+                        <figcaption>Site do Guga</figcaption>
                     </figure>
                 </div>
             </div>
