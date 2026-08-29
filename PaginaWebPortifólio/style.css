@@ -28,3 +28,15 @@ body {
     position: fixed;
     width: 100%;
 }
+
+.nav {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-logo {
+    color: var(--corprincipal);
+    text-decoration: none;
+
+}
