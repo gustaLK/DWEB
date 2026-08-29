@@ -22,8 +22,8 @@ body {
 }
 
 .header-1 {
-    background-color: #872;
-    color: white;
+    background-color: rgb(83, 191, 208);
+    color: mintcream;
     padding: 15px 0;
     position: fixed;
     width: 100%;
@@ -38,5 +38,21 @@ body {
 .nav-logo {
     color: var(--corprincipal);
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    padding: 5px 0;
+}
 
+.nav-menu {
+    float: rigth;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 20px;
 }
