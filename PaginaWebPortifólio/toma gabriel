@@ -1,0 +1,21 @@
+<section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-container bd-grid">
+ 
+                <a href="https://www.instagram.com/choquei/">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1280px-Instagram_icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" width="90"
+                    height="90" alt="logo do instagram"></a>
+ 
+                <a href="https://wa.me/5515233114567">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUZRR41jUmacEK0f2jajsAemwyelOyZ-8dAZEI8tNIrQ&s=10" width="100"
+                     height="100"></a>
+ 
+                <a href="https://br.linkedin.com/in/levi-rodrigues-munhoz-587b12aa">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ZBsDfvQ2isYjlPw4O0rDUM4FLIylJaS3WQ04z3ya_g&s=10" width="100"
+                     height="100"></a>
+ 
+                <a href="https://github.com/gustaLK">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqLyiYI6toDd8wc_g3Sk_iHP__XQAd-hrFslE2QIQOVQ&s=10" width="100"
+                     height="100"></a>
+            </div>
+        </section>
