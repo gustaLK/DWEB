@@ -151,7 +151,7 @@ section {
 }
 
 .formation-container {
-    width: 800x;
+    width: 800px;
     margin: 0 auto;
     text-align: left;
 }
@@ -167,4 +167,29 @@ section {
 
 .formation-container ol {
     padding-left: 40px;
+}
+
+.skills {
+    text-align: center;
+}
+
+.skills-container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: 24px;
+}
+
+.skills-subtitle {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.skills-text {
+    margin-bottom: 30px;
+}
+
+.skills-data {
+    margin-bottom: 15px;
+    position: relative;
+    padding-right: 90px;
 }
