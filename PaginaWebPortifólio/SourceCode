@@ -33,7 +33,7 @@
                     <li class="nav-item"><a href="#skills" class="nav-link active">
                             Habilidades</a></li>
                     <li class="nav-item"><a href="#projects" class="nav-link active">
-                            projetos</a></li>
+                            Projetos</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link active">
                             Contato</a></li>
                 </ul>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="skills-bar skills-html"></div>
                         <div>
-                            <span class="skills-percentage">%80</span>
+                            <span class="skills-percentage"><br>%80</span>
                         </div>
                     </div>
 
@@ -111,7 +111,7 @@
                         </div>
                         <div class="skills-bar skills-js"></div>
                         <div>
-                            <span class="skills-percentage">70%</span>
+                            <span class="skills-percentage"><br>70%</span>
                         </div>
                     </div>
 
