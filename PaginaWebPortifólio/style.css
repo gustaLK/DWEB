@@ -193,3 +193,68 @@ section {
     position: relative;
     padding-right: 90px;
 }
+
+.skills-names {
+    margin-bottom: 5px;
+}
+
+.skills-bar {
+    height: 20px;
+    background-color: #e0e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    top: 0;
+}
+
+.skills-html {
+    width: 80%;
+    background-color: #8257E5;
+}
+
+
+.skills-js {
+    width: 70%;
+    background-color: #8257E5;
+}
+
+.skills-percentage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 20px;
+    font-weight: 10px;
+    padding-left: 10px;
+}
+
+.skills-container h3 {
+    margin: 30px 0 15px 0;
+}
+
+.skills-container dl{
+    margin-left: 20px;
+}
+
+.skills-container dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skills-container dd {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects-text {
+    width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
