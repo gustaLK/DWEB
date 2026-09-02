@@ -76,7 +76,7 @@ section {
     margin: 0 auto;
 }
 
-.section-title{
+.section-title {
     text-align: center;
     margin-bottom: 40px;
     font-size: 28px;
@@ -106,6 +106,7 @@ section {
     width: 400px;
     text-align: center;
 }
+
 .home-img img {
     width: 300px;
     height: 300px;
@@ -141,7 +142,7 @@ section {
     font-size: 24px;
 }
 
-.about-text{
+.about-text {
     margin-bottom: 15px;
     text-align: justify;
 }
@@ -230,7 +231,7 @@ section {
     margin: 30px 0 15px 0;
 }
 
-.skills-container dl{
+.skills-container dl {
     margin-left: 20px;
 }
 
@@ -258,3 +259,89 @@ section {
     border-collapse: collapse;
     margin-bottom: 30px;
 }
+
+.projects-table th,
+.projects-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.projects-table th {
+    background-color: #f2f2f2;
+}
+
+.projects-container {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.projects-img {
+    float: left;
+    width: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.projects-img0 {
+    float: left;
+    width: 30px;
+    margin-left: 380px;
+    text-align: center;
+}
+
+.projects-img img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.projects-img0 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+.projects-img figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.projects-img0 figcaption {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-container a {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.contact-container img {
+    transition: transform 0.10s;
+}
+
+.contact-container img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer-title {
+    color: #e58e57;
+}
+
+.bd-grid {}
