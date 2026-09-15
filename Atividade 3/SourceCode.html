@@ -17,61 +17,131 @@
 <body>
     <main>
         <section class="home bd-grid">
-                <h1 class="titulo">
-                    Sistemas de Gerenciamento de Conteúdo (CMS): Uma Visão Geral sobre Arquiteturas Monolíticas e
-                    Headless
-                </h1>
-                <h2 class="topico-1">
-                    1. Introdução
-                </h2>
-                <article class="introducao">
-                    A evolução da internet e a necessidade de uma presença digital eficaz transformaram o desenvolvimento de sites em um campo essencial para o crescimento de negócios. No entanto, o processo tradicional de criação de sites pode ser caro e demorado, exigindo profissionais com conhecimentos técnicos avançados. Nesse contexto, os 
-                    <strong>Sistemas de Gerenciamento de Conteúdo (CMS)</strong>
-                    surgem como soluções econômicas que permitem a usuários sem conhecimentos técnicos profundos criar, gerenciar e modificar  
-                </article>
+            <h1 class="titulo">
+                Sistemas de Gerenciamento de Conteúdo (CMS): Uma Visão Geral sobre Arquiteturas Monolíticas e
+                Headless
+            </h1>
+            <h2 class="topico-1">
+                1. Introdução
+            </h2>
+            <article class="introducao">
+                A evolução da internet e a necessidade de uma presença digital eficaz transformaram o desenvolvimento de
+                sites em um campo essencial para o crescimento de negócios. No entanto, o processo tradicional de
+                criação de sites pode ser caro e demorado, exigindo profissionais com conhecimentos técnicos avançados.
+                Nesse contexto, os
+                <strong>Sistemas de Gerenciamento de Conteúdo (CMS)</strong>
+                surgem como soluções econômicas que permitem a usuários sem conhecimentos técnicos profundos criar,
+                gerenciar e modificar
+            </article>
 
-                <h2 class="topico-2">
-                    2. O que é um CMS?
-                </h2>
-                <article class="introducao">
-                    Um CMS é um software de computador utilizado para organizar, visualizar e facilitar a criação de conteúdo. Ele atua coletando e estruturando informações a serem publicadas em um site, permitindo que o usuário construa páginas sem precisar escrever código do zero.
-                </article>
+            <h2 class="topico-2">
+                2. O que é um CMS?
+            </h2>
+            <article class="introducao">
+                Um CMS é um software de computador utilizado para organizar, visualizar e facilitar a criação de
+                conteúdo. Ele atua coletando e estruturando informações a serem publicadas em um site, permitindo que o
+                usuário construa páginas sem precisar escrever código do zero.
+            </article>
 
-                <h3 class="topico-2.1">
-                    2.1 Componentes Principais
-                </h3>
-                <article class="introducao">
-                    Tipicamente, um CMS é composto por dois elementos fundamentais:
-                </article><br>
-                <li class="CMA">
-                    •	<strong>Aplicação de Gerenciamento de Conteúdo (CMA):</strong> É a interface de front-end que permite ao usuário adicionar, modificar e remover conteúdos de um site sem a intervenção de um webmaster.
-                </li>
-                <li class="CDA">
-                    •	<strong>Aplicação de Entrega de Conteúdo (CDA):</strong> É a parte responsável por compilar o conteúdo criado na CMA e atualizar o site.
-                </li>
+            <h3 class="topico-2.1">
+                2.1 Componentes Principais
+            </h3>
+            <article class="introducao">
+                Tipicamente, um CMS é composto por dois elementos fundamentais:
+            </article><br>
+            <li class="CMA">
+                • <strong>Aplicação de Gerenciamento de Conteúdo (CMA):</strong> É a interface de front-end que permite
+                ao usuário adicionar, modificar e remover conteúdos de um site sem a intervenção de um webmaster.
+            </li>
+            <li class="CDA">
+                • <strong>Aplicação de Entrega de Conteúdo (CDA):</strong> É a parte responsável por compilar o conteúdo
+                criado na CMA e atualizar o site.
+            </li>
 
-                <h2 class="topico-3">
-                    3. Diferença entre CMS Monolítico e CMS Headless
-                </h2>
-                <article>
-                    O CMS monolítico integra a criação, o armazenamento e a apresentação do conteúdo em uma <strong>única aplicação.</strong>
-                </article>
+            <h2 class="topico-3">
+                3. Diferença entre CMS Monolítico e CMS Headless
+            </h2>
+            <article>
+                As arquiteturas de publicação variam significativamente entre os sistemas, sendo categorizadas
+                principalmente pela forma como o conteúdo é armazenado e entregue.
+            </article>
 
-                <h3 class="topico-3.1">
-                    3.1 CMS Monolítico (Tradicional ou Acoplado)
-                </h3>
-                <li class="estrutura">
-                    •	<strong>Estrutura:</strong> O back-end (gerenciamento) e o front-end (apresentação) estão fortemente acoplados.
-                </li>
-                <li class="funcionamento">
-                    •	<strong>Funcionamento:</strong> O conteúdo é publicado diretamente em um site gerenciado pelo próprio CMS, utilizando modelos (templates) pré-definidos.
-                </li>
-                <li class="exemplos">
-                    •	<strong>Exemplos:</strong> O WordPress é o exemplo mais popular desta arquitetura.
-                </li>
-            
-                
+            <h3 class="topico-3.1">
+                3.1 CMS Monolítico (Tradicional ou Acoplado)
+            </h3>
+            <article>
+                O CMS monolítico integra a criação, o armazenamento e a apresentação do conteúdo em uma <strong>única
+                    aplicação.</strong>
+            </article><br>
+            <li class="estrutura">
+                • <strong>Estrutura:</strong> O back-end (gerenciamento) e o front-end (apresentação) estão fortemente
+                acoplados.
+            </li>
+            <li class="funcionamento">
+                • <strong>Funcionamento:</strong> O conteúdo é publicado diretamente em um site gerenciado pelo próprio
+                CMS, utilizando modelos (templates) pré-definidos.
+            </li>
+            <li class="exemplos">
+                • <strong>Exemplos:</strong> O WordPress é o exemplo mais popular desta arquitetura.
+            </li>
 
+            <h3 class="topico-3.2">
+                3.2 CMS Headless (Sem Cabeça)
+            </h3>
+            <table>
+                <thead>
+                    <th>Característica</th>
+                    <th>CMS Monolítico</th>
+                    <th>CMS Headless</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Integração</th>
+                        <td>Back-end e front-end
+                            unidos.</td>
+                        <td>Totalmente separados.</td>
+                    </tr>
+                    <tr>
+                        <th>Entrega de
+                            Conteúdo</th>
+                        <td>Limitada a um único canal
+                            (site).</td>
+                        <td>Multicanal via APIs (web, mobile,
+                            IoT).</td>
+                    </tr>
+                    <tr>
+                        <th>Escalabilidade</th>
+                        <td> Difícil de escalar partes
+                            separadamente.</td>
+                        <td>Alta escalabilidade e flexibilidade.</td>
+                    </tr>
+                    <tr>
+                        <th>Facilidade de Uso</th>
+                        <td>Possui templates préfabricados.</td>
+                        <td>Exige desenvolvimento de front-end
+                            customizado.</td>
+                    </tr>
+                    <tr>
+                        <th>Desempenho </th>
+                        <td>Pode ter carregamento mais
+                            lento</td>
+                        <td>Carregamento mais rápido e melhor
+                            performance de página.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2 class="topico-4">
+                4. Conclusão
+            </h2>
+            <article>
+                Enquanto os sistemas monolíticos continuam sendo uma escolha sólida para
+                organizações que publicam conteúdo em um único canal e buscam facilidade com
+                templates prontos, a arquitetura <strong>headless</strong> representa uma mudança de paradigma. Ao
+                desacoplar a criação da apresentação, o CMS headless oferece a agilidade necessária
+                para o ambiente digital moderno, permitindo a entrega de experiências consistentes em
+                múltiplos dispositivos e garantindo maior resiliência e escalabilidade a longo prazo.
+            </article>
         </section>
     </main>
 
