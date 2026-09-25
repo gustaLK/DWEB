@@ -1,0 +1,50 @@
+body{
+    font-size: 70px;
+    font: 200 Arial;
+}
+
+h2{
+    text-align: center;
+}
+
+@media screen and (max-width: 420) {
+    h2{
+        color: grey;
+    }
+}
+
+@media screen and (max-width: 768) {
+    h2{
+        color: peru;
+    }
+}
+
+@media screen and (max-width: 1024) {
+    h2{
+        color: pink;
+    }
+}
+
+@media screen and (max-width: 1080) {
+    h2{
+        color: palevioletred;
+    }
+}
+
+@media screen and (max-width: 1366) {
+    h2{
+        color: purple;
+    }
+}
+
+@media screen and (max-width: 1920) {
+    h2{
+        color: yellow;
+    }
+}
+
+@media screen and (min-width: 1920) {
+    h2{
+        color: green;
+    }
+}
