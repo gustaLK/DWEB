@@ -1,50 +1,92 @@
 body{
     font-size: 70px;
-    font: 200 Arial;
+    font-family: 200 Arial;
 }
 
 h2{
     text-align: center;
 }
 
-@media screen and (max-width: 420) {
+@media screen and (max-width: 420px) {
     h2{
-        color: grey;
+        background-color: gray;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Cinza";
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 768) {
+@media screen and (max-width: 768px) and (min-width: 421px) {
     h2{
-        color: peru;
+        background-color: peru;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Peru";
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 1024) {
+@media screen and (max-width: 1024px) and (min-width: 769px){
     h2{
-        color: pink;
+        background-color: pink;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Rosa";
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 1080) {
+@media screen and (max-width: 1080px) and (min-width: 1025px){
     h2{
-        color: palevioletred;
+        background-color: violet;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Violeta";
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 1366) {
+@media screen and (max-width: 1366px) and (min-width: 1081px){
     h2{
-        color: purple;
+        background-color: purple;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Roxo";
+        font-size: 70px;
     }
 }
 
-@media screen and (max-width: 1920) {
+@media screen and (max-width: 1920px) and (min-width: 1367px){
     h2{
-        color: yellow;
+        background-color: yellow;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Amarelo";
+        font-size: 70px;
     }
 }
 
-@media screen and (min-width: 1920) {
+@media screen and (min-width: 1921px){
     h2{
-        color: green;
+        background-color: green;
+        height: 500px;
+        width: 500px;
+    }
+    h2::before{
+        content: "Verde";
+        font-size: 70px;
     }
 }
