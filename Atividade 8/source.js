@@ -12,20 +12,16 @@ function enviar(event) {
     let idade = Number(document.getElementById("idade").value);
     let avaliacao = Number(document.getElementById("aval").value);
 
-    // Soma das idades
     media += idade;
 
-    // Encontra a pessoa mais velha
     if (idade > velha) {
         velha = idade;
     }
 
-    // Encontra a pessoa mais nova
     if (idade < nova) {
         nova = idade;
     }
 
-    // Contabiliza as avaliações
     if (avaliacao >= 3) {
         bom++;
     } else if (avaliacao <= 2) {
@@ -36,7 +32,6 @@ function enviar(event) {
 
     alert("Avaliação registrada!");
 
-    // Limpa o formulário
     event.target.reset();
 }
 
