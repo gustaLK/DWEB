@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews Filme</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form onsubmit="enviar(event)">
+        <input type="number" id="idade" min="1" placeholder="Digite sua idade" required>
+
+        <input type="radio" id="feminino" name="sexo" value="F" required>
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" id="masculino" name="sexo" value="M">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" id="outros" name="sexo" value="X">
+        <label for="outros">Outros</label>
+
+        <select id="aval" required>
+            <option value="" disabled selected>Deixe sua avaliação</option>
+            <option value="1">Péssimo</option>
+            <option value="2">Regular</option>
+            <option value="3">Bom</option>
+            <option value="4">Ótimo</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <form onsubmit="calcular(event)">
+        <button type="submit">Calcular</button>
+    </form>
+
+    <script src="source.js"></script>
+</body>
+</html>
